@@ -13,7 +13,7 @@ int main()
 
     std::bitset<32> b(n);
 
-    std::cout << "binary from of " << n << " is: " << b << std::endl;
+    std::cout << "binary form of " << n << " is: " << b << std::endl;
     std::cout << "Bit in pos " << pos << " is: " << b[pos - 1] << std::endl;
 
     return 0;
