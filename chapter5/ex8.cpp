@@ -15,7 +15,7 @@ int main()
         isbn %= len;
         len /= 10;
     }
-    
+
     check_digit = 10 - (sum % 10);
 
     if (check_digit == isbn % 10)
