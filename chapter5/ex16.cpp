@@ -36,6 +36,5 @@ int main()
         std::cout << "Error" << '\n';
         break;
     }
-
     return 0;
 }
